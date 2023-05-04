@@ -50,8 +50,6 @@ public class PrimeiroTeste {
 		WebElement checkBox = browser.findElement(By.id("checkbox2"));
 		checkBox.click();
 		
-       
-        
 		WebElement skills = browser.findElement(By.id("Skills"));
 		Select selectSkills = new Select(skills);
 		selectSkills.selectByVisibleText("Java");
